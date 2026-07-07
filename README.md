@@ -1,0 +1,2 @@
+In satellite context specifically:
+The ADC may not always be sampling. Between measurements the sensor may be idle. valid_in tells the filter when to actually shift in a new sample versus when to hold state.
